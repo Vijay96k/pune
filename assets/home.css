@@ -1,0 +1,74 @@
+ html, body {
+             height: 100%;
+             margin: 0;
+             padding: 0;
+                }
+        body {
+            font-family: Arial;
+            background: url("../bg2.jpg") no-repeat center center fixed;
+            background-size: cover;
+             min-height: 100vh;
+        }
+
+        h1 {
+            text-align: center;
+            animation: slide 2s ease-in-out;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        @keyframes slide {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .images {
+            text-align: center;
+        }
+
+        .images img {
+            width: 250px;
+            margin: 10px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .images img:hover {
+            transform: scale(1.1);
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: center;
+        }
+        .info-table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    width: 60%;
+    background: rgba(255,255,255,0.85);
+    border-radius: 10px;
+    overflow: hidden;
+     margin-bottom: 60px;
+}
+
+.info-table th {
+    background: #2c3e50;
+    color: white;
+    padding: 12px;
+}
+
+.info-table td {
+    padding: 10px;
+    text-align: center;
+}
+
+.info-table tr:hover {
+    background: #dfe6e9;
+}
+.info-table th,
+.info-table td {
+    border-bottom: 1px solid #ccc;
+}
