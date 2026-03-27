@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pune Gallery📸</title>
+
+    <style>
+        body 
+        {
+            margin: 0;
+            font-family: Arial, sans-serif;
+
+            /* 🌄 Background Image + Overlay */
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+                        url("https://images.unsplash.com/photo-1603262110263-fb0112e7cc33");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #f6f3f3;
+        }
+
+        .back {
+            display: block;
+            width: fit-content;
+            margin: 10px auto;
+            text-decoration: none;
+            background: #28a745;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .image-box {
+            text-align: center;
+        }
+
+        .image-box img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .caption {
+            margin-top: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>📸 Pune Gallery</h1>
+<p class="subtitle">Places to Explore in Pune😉😁</p>
+
+<div class="gallery">
+
+    <div class="image-box">
+        <a href="shaniwar.html">
+            <img src="C:\Users\Pranjal\Desktop\pune imgs\shaniwar.jpeg">
+        </a>
+        <p class="caption">Shaniwar Wada</p>
+    </div>
+
+    <div class="image-box">
+        <a href="sinhagad.html">
+            <img src="C:\Users\Pranjal\Desktop\pune imgs\fort.jpeg">
+        </a>
+        <p class="caption">Sinhagad Fort</p>
+    </div>
+
+    <div class="image-box">
+        <a href="agakhan.html">
+            <img src="C:\Users\Pranjal\Desktop\pune imgs\agakhan.jpeg">
+        </a>
+        <p class="caption">Aga Khan Palace</p>
+    </div>
+
+    <div class="image-box">
+        <a href="dagdusheth.html">
+            <img src="C:\Users\Pranjal\Desktop\pune imgs\ganpati.jpeg">
+        </a>
+        <p class="caption">Dagdusheth Ganpati</p>
+    </div>
+
+    <div class="image-box">
+        <a href="pashan.html">
+            <img src="C:\Users\Pranjal\Desktop\pune imgs\pashan.jpeg">
+        </a>
+        <p class="caption">Pashan Lake</p>
+    </div>
+
+    <div class="image-box">
+        <a href="lavasa.html">
+            <img src="C:\Users\Pranjal\Desktop\pune imgs\lavasa.jpeg">
+        </a>
+        <p class="caption">Lavasa</p>
+    </div>
+
+</div>
+<a class="back" href="../home.html">⬅ Back to Home</a>
+
+
+</body>
+</html>
