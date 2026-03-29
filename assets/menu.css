@@ -1,34 +1,42 @@
 body {
-            font-family: Arial;
-            background: #1e272e;
-            color: white;
-        }
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(180deg, #020617, #0f172a);
+    color: #cbd5f5;
+    margin: 0;
+}
 
-        h2 {
-            text-align: center;
-        }
+/* NAV TITLE */
+h2 {
+    padding: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #94a3b8;
+    letter-spacing: 1px;
+}
 
-        ul {
-            list-style: none;
-            padding: 0;
-        }
+/* MENU */
+ul {
+    list-style: none;
+    padding: 10px;
+}
 
-        li {
-            margin: 15px;
-        }
+li {
+    margin: 8px 0;
+}
 
-        a {
-            text-decoration: none;
-            color: white;
-            padding: 10px;
-            display: block;
-            background: #485460;
-            border-radius: 5px;
-            transition: 0.3s;
-        }
+/* LINKS */
+a {
+    text-decoration: none;
+    color: #cbd5f5;
+    padding: 12px 18px;
+    display: block;
+    border-radius: 8px;
+    transition: 0.3s;
+}
 
-        a:hover {
-            background: #0be881;
-            color: black;
-            transform: scale(1.05);
-        }
+/* HOVER EFFECT */
+a:hover {
+    background: linear-gradient(90deg, #3b82f6, #2563eb);
+    color: white;
+    transform: translateX(6px);
+}

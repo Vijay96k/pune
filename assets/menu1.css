@@ -1,0 +1,49 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(180deg, #1e3a8a, #1d4ed8);
+    color: #e0e7ff;
+    margin: 0;
+}
+
+/* NAV TITLE */
+h2 {
+    padding: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.7);
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* MENU */
+ul {
+    list-style: none;
+    padding: 12px;
+}
+
+/* MENU ITEM */
+li {
+    margin: 10px 0;
+}
+
+/* LINKS */
+a {
+    text-decoration: none;
+    color: #e0e7ff;
+    padding: 12px 18px;
+    display: block;
+    border-radius: 10px;
+    transition: all 0.25s ease;
+}
+
+/* HOVER EFFECT */
+a:hover {
+    background: rgba(255,255,255,0.15);
+    color: white;
+    transform: translateX(6px);
+}
+
+/* ACTIVE STYLE (optional but pro feel) */
+a:active {
+    background: rgba(255,255,255,0.25);
+}

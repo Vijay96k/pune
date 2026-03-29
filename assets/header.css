@@ -1,0 +1,31 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER BODY */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3a8a, #2563eb);
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+}
+
+/* MAIN TITLE */
+h1 {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+/* SUBTEXT */
+p {
+    margin-top: 5px;
+    font-size: 14px;
+    opacity: 0.85;
+}
