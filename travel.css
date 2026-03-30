@@ -1,0 +1,129 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY (ONLY BACKGROUND SOURCE) */
+html, body {
+    height: 100%;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: linear-gradient(to bottom, #2563eb, #e2e8f0);
+    color: #0f172a;
+}
+
+/* LAYOUT */
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 220px;
+    background: linear-gradient(to bottom, #1e3a8a, #2563eb);
+    padding: 20px;
+    color: white;
+}
+
+/* MAIN CONTENT */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background: transparent; /* IMPORTANT: no second background */
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, #1e40af, #2563eb);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* REMOVE ALL EXTRA LINES */
+section, .container {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+/* TITLE */
+h1 {
+    margin: 20px;
+}
+
+/* CARDS CONTAINER */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* CARD */
+.card {
+    width: 250px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+}
+
+.card h3 {
+    padding: 10px;
+}
+
+/* POPUP */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    width: 300px;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+.close {
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* BUTTON */
+button {
+    padding: 10px;
+    margin-top: 10px;
+    background: #ff6600;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e65c00;
+}
