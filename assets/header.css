@@ -23,6 +23,14 @@ h1 {
     text-transform: uppercase;
 }
 
+h3 {
+    h1 {
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+}
 /* SUBTEXT */
 p {
     margin-top: 5px;
